@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>EHealth</title>
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    body {
+      background-color: #f8f9fa05; /* Light background color for the body */
+  }
+  h2 {
+      margin-bottom: 30px; /* Spacing below section titles */
+  }
+  .card {
+      border: 1px solid #007bff; /* Card border color */
+      border-radius: 8px; /* Rounded corners */
+      transition: transform 0.2s; /* Transition effect for hover */
+  }
+  
+ 
+  .card-text {
+      color: #333; /* Text color */
+  }
+  .container {
+      margin-top: 50px; /* Spacing above each section */
+  }
+  .bg-primary {
+      background-color: #007bff !important; /* Primary color for mission and vision */
+      color: white; /* White text on primary color */
+  }
+  
+  
+  
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+  <title>sumit</title>
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <!-- <div class="jumbotron" style="margin-bottom: 0px; margin-top: 0px;"> -->
+    <!-- <p class="lead">A service dedicated to Hospital Admin, Doctor, and Patient.</p> -->
+    <!-- <hr class="my-4"> -->
+    <!-- <p>Explore our Website.</p> -->
+<!-- </div> -->
+
+<!-- Mission and Vision Section -->
+
+<div class="container mt-5">
+  <h2 class="text-center">Our Mission and Vision</h2>
+  <div class="row">
+      <div class="col-md-6">
+          <div class="card mb-4 bg-primary">
+              <div class="card-body">
+                  <h3 class="card-title">Mission</h3>
+                  <p class="card-text">Our mission is to provide top-quality healthcare services through innovation and dedication to improving the health and well-being of our patients.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="card mb-4 bg-primary">
+              <div class="card-body">
+                  <h3 class="card-title">Vision</h3>
+                  <p class="card-text">Our vision is to be the leading healthcare provider known for excellence in patient care, cutting-edge technology, and compassionate service.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Team Members Section -->
+<div class="container mt-5">
+  <h2 class="text-center">Team Members</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <!-- <div class="card mb-4"> -->
+            <img src="static/images/Screenshot (374).png" class="card-img-top" style="border-radius: 50%; width: 100%; height: auto; object-fit: cover;">
+
+              <div class="card-body">
+                  <h4 class="card-title">Dorothy Wangara</h4>
+                  <p class="card-text">Visionary Founder</p>
+              <!-- </div> -->
+          </div>
+      </div>
+      <div class="col-md-4">
+           <!-- <div class="card mb-4">  -->
+            <img src="static/images/WhatsApp_Image_2024-10-06_at_2.43.20_PM-removebg-preview.png" class="card-img-top" style="border-radius: 50%; width: 350px; height: auto; object-fit: cover;">
+
+              <div class="card-body">
+                  <h4 class="card-title">Mercy Mwene</h4>
+                  <p class="card-text">Founder</p>
+              <!-- </div> -->
+          </div>
+      </div>
+      <div class="col-md-4">
+          <!-- <div class="card mb-4"> -->
+            <img src="static/images/WhatsApp_Image_2024-10-06_at_2.43.20_PM_1_-removebg-preview.png" class="card-img-top" style="border-radius: 50%; width: 100%; height: auto; object-fit: cover;">
+
+              <div class="card-body">
+                  <h4 class="card-title">Faith Akumu</h4>
+                  <p class="card-text">Co-Founder</p>
+              <!-- </div> -->
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Board of Directors Section -->
+<div class="container mt-5">
+  <h2 class="text-center">Board Members</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="path/to/robert_green.jpg" class="card-img-top">
+              <div class="card-body">
+                  <h4 class="card-title">Arden Makale</h4>
+                  <p class="card-text">Chairman of the Board/ CEO - Partners for Girls</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="path/to/sarah_white.jpg" class="card-img-top">
+              <div class="card-body">
+                  <h4 class="card-title">Dr Elvis Aswan</h4>
+                  <p class="card-text">Doctor- Afya Trust</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="path/to/michael_brown.jpg" class="card-img-top">
+              <div class="card-body">
+                  <h4 class="card-title">Recruiting</h4>
+                  <p class="card-text">New Board Member</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Partners Section -->
+<div class="container mt-5">
+  <h2 class="text-center">Our Partners</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card mb-4 bg-info">
+              <div class="card-body">
+                  <h4 class="card-title">Afya Trust</h4>
+                  <p class="card-text">Leading healthcare provider in pharmaceuticals.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card mb-4 bg-info">
+              <div class="card-body">
+                  <h4 class="card-title">Afya Trust</h4>
+                  <p class="card-text">Technology solutions for hospital management systems.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card mb-4 bg-info">
+              <div class="card-body">
+                  <h4 class="card-title">Kilele Health</h4>
+                  <p class="card-text">International hospital network collaborating on patient care.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Core Values Section -->
+<div class="container mt-5">
+  <h2 class="text-center">Our Core Values</h2>
+  <div class="row">
+      <div class="col-md-12 text-center mb-4">
+          <img src="path/to/core_values_image.jpg" class="img-fluid" alt="Core Values" style="max-width: 300px;">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <div class="card-body text-center">
+                  <h4 class="card-title">Team Work</h4>
+                  <p class="card-text">We believe in collaboration and working together to achieve common goals.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <div class="card-body text-center">
+                  <h4 class="card-title">Integrity</h4>
+                  <p class="card-text">We act with honesty and uphold the highest standards of integrity in all our actions.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <div class="card-body text-center">
+                  <h4 class="card-title">Fairness</h4>
+                  <p class="card-text">We treat everyone with fairness and equity, ensuring justice and respect for all.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <div class="card-body text-center">
+                  <h4 class="card-title">Patient First</h4>
+                  <p class="card-text">We prioritize the needs and wellbeing of our patients above all else.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+  {% include "hospital/footer.html" %}
+</body>
+
+
+</html>
